@@ -1,6 +1,13 @@
 h1{
     background-color: turquoise;
+    font-family: 'Montserrat';
 }
 #mona_lisa{
     background: url('./img/lisa.jpg');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/Montserrat-Regular.ttf');
+    font-style: normal;
 }
