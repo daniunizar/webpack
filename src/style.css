@@ -1,3 +1,6 @@
 h1{
     background-color: turquoise;
 }
+#mona_lisa{
+    background: url('./img/lisa.jpg');
+}
