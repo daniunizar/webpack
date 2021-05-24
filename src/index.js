@@ -1,6 +1,8 @@
 import _ from 'lodash';
 import './style.css';
 import img_lisa from './img/lisa.jpg';
+import Data from './data.xml';
+import Notes from './data.csv';
 
 function component() {
     const element = document.createElement('div');
@@ -19,3 +21,8 @@ function component() {
   }
   document.body.appendChild(component());  
 
+function mostrarInfo(){
+  console.log(Data);
+  console.log(Notes);
+}
+mostrarInfo();
