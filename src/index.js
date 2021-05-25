@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import img_lisa from './img/lisa.jpg';
 import Data from './data.xml';
+window.Data = Data;
 import Notes from './data.csv';
 import moment from 'moment';
 window.moment = moment;
