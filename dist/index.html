@@ -15,7 +15,12 @@
     <script>
         //Generamos con lodash un número aleatorio entre 1 y 100 y lo mostramos por consola
         var random = _.random(1, 100);
-        console.log("Número aleatorio: "+random);    
-    </script>
+        console.log("Número aleatorio: "+random);   
+        console.log("Comparamos con lodash que 3 es mayor que 1: "+_.gt(3, 1));//Devuelve true porque 3 es mayor que 1 
+        //Moment
+        console.log("Intentamos algo con moment");
+        var ahora = moment().format();
+        console.log(ahora);
+   </script>
 </body>
 </html>

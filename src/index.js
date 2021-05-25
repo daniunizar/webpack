@@ -3,12 +3,13 @@ import './style.css';
 import img_lisa from './img/lisa.jpg';
 import Data from './data.xml';
 import Notes from './data.csv';
-
+import moment from 'moment';
+window.moment = moment;
 function component() {
     const element = document.createElement('div');
  
     // Lodash, now imported by this script
-    element.innerHTML = _.join(['HEllo', 'webpack'], ' ');
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.classList.add('hello');
  
    // Add the image to our existing div.
