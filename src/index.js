@@ -1,6 +1,8 @@
+import 'jquery';
 import _ from 'lodash';
 import './style.css';
 import img_lisa from './img/lisa.jpg';
+window.img_lisa = img_lisa;//No funciona como esperábamos
 import Data from './data.xml';
 window.Data = Data;
 import Notes from './data.csv';
@@ -28,3 +30,5 @@ function mostrarInfo(){
   console.log(Notes);
 }
 mostrarInfo();
+
+$("#title").hide();

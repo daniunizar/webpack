@@ -7,8 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="bundle.js"></script>
     <h1>Hola Mundo!</h1>
+    <h2 id="title">Si jquery funciona NO deberías verme</h2>
+    <script src="bundle.js"></script>
     <div id="mona_lisa">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consequatur possimus impedit corporis sed inventore numquam eum! Nemo harum tenetur maiores molestias tempore est iure! Officiis numquam aliquid in aut!</div>
     <div id="contenedor_imagen"></div>
     <img src="./img_lisa.jpg" alt="Imagen importada">
@@ -22,6 +23,7 @@
         var ahora = moment().format();
         console.log(ahora);
         console.log(Data);
-   </script>
+        console.log("Imprimir img_lisa devuelve su ruta de salida en dist:" +img_lisa);
+        </script>
 </body>
 </html>
