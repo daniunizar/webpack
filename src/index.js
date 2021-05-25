@@ -1,4 +1,6 @@
 import 'jquery';
+import $ from 'jquery';
+window.$ = $;
 import _ from 'lodash';
 import './style.css';
 import img_lisa from './img/lisa.jpg';
@@ -31,4 +33,5 @@ function mostrarInfo(){
 }
 mostrarInfo();
 
+//usamos jquery
 $("#title").hide();

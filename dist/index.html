@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Hola Mundo!</h1>
+    <h2 id="title_html">Título a quitar con jquery desde index.html</h2>
     <h2 id="title">Si jquery funciona NO deberías verme</h2>
     <script src="bundle.js"></script>
     <div id="mona_lisa">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consequatur possimus impedit corporis sed inventore numquam eum! Nemo harum tenetur maiores molestias tempore est iure! Officiis numquam aliquid in aut!</div>
@@ -24,6 +25,8 @@
         console.log(ahora);
         console.log(Data);
         console.log("Imprimir img_lisa devuelve su ruta de salida en dist:" +img_lisa);
+        //usamos jquery desde html
+        $("#title_html").hide();
         </script>
 </body>
 </html>
