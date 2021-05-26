@@ -7,17 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola Mundo!</h1>
+    <h1>El fondo y la fuente tipográfica de este h1 está importado en index.js. Requiere style-loader y css-loader</h1>
     <h2 id="title_html">Título a quitar con jquery desde index.html. id='title_html'</h2>
     <h2 id="title">Si jquery funciona NO deberías verme. Id='title'</h2>
     <script src="bundle.js"></script>
-    <div id="mona_lisa">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consequatur possimus impedit corporis sed inventore numquam eum! Nemo harum tenetur maiores molestias tempore est iure! Officiis numquam aliquid in aut!</div>
+    <div id="mona_lisa">La imagen de fondo de este DIV está importada en index.js. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consequatur possimus impedit corporis sed inventore numquam eum! Nemo harum tenetur maiores molestias tempore est iure! Officiis numquam aliquid in aut!</div>
     <div id="contenedor_imagen"></div>
     <img src="./img_lisa.jpg" alt="Imagen importada">
-    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-primary">Botón. Bootstrap importado en index.js</button>
     <!-- Button trigger modal 4.6-->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-      Launch static backdrop modal
+      Abrir ventana Modal. Impotado bootstrap y su js en index.js.
     </button>
 
     <!-- Modal 4.6-->
@@ -44,10 +44,11 @@
     <script>
         //Generamos con lodash un número aleatorio entre 1 y 100 y lo mostramos por consola
         var random = _.random(1, 100);
+        console.log("Usamos la librería importada lodash:");
         console.log("Número aleatorio: "+random);   
         console.log("Comparamos con lodash que 3 es mayor que 1: "+_.gt(3, 1));//Devuelve true porque 3 es mayor que 1 
         //Moment
-        console.log("Intentamos algo con moment");
+        console.log("Usamos la librería importada 'moment:'");
         var ahora = moment().format();
         console.log(ahora);
         console.log(Data);
