@@ -1,8 +1,11 @@
 import 'jquery';
 import $ from 'jquery';
 window.$ = $;
-//import 'bootstrap';
+import 'bootstrap';
+import 'bootstrap/js/dist/util';
+import 'bootstrap/js/dist/dropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js.map';
 import _ from 'lodash';
 import './style.css';
 import img_lisa from './img/lisa.jpg';
